@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, sans-serif;
+    
+    margin: 20px;
+    padding: 20px;
+}
+form{
+   
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+fieldset{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: greenyellow;
+}
+legend{
+    display: block;  
+    
+}
+label{
+    display: block;
+    float: left;
+    clear: left;
+    text-align: right;
+    width: 100px;
+    margin: 5px;
+}
+select{
+    display: block;
+    float: left;
+}
+input{
+    display: block;
+    float: left;
+    margin: 6px;
+}
+span{
+   display: block;
+    float: left;
+}
+textarea{
+    display: block;
+    float: left;
+    margin: 6px;
+}
+meter{
+   display: block;
+    float: left;
+    margin: 6px;
+}
+p{
+    display: block;
+    margin: auto;
+     font-size: 50px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bt2-b4</title>
+    <link rel="stylesheet" href="bt2-b4.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Thông tin cá nhân</legend>
+            <label for="">Tức vị</label>
+            <select name="" id="">
+                <option value="text">Ông</option>
+                <option value="text">Bà</option>
+                <option value="text">Cô</option>
+                <option value="text">Chú</option>
+                <option value="text">Anh</option>
+                <option value="text">Chị</option>
+                <option value="text">Em</option>
+            </select>
+            <label for="">Họ tên:</label>
+            <input type="text" name="fullName">
+            <label for="">Ngày sinh:</label>
+             <input type="date" name="date">
+            <label for="">Giờ sinh</label>
+            <input type="time" name="time">
+            <label for="">Giới tính: </label>
+            <input type="radio" name="gioitinh"  value="Nam"> <span>Nam</span>
+            <input type="radio" name="gioitinh" value="Nữ">   <span>Nữ</span>
+            
+            <label for="">Sở thích</label>
+            <input type="checkbox" name="sothich" value="Thể thao"> <span>Thể thao </span>
+            <input type="checkbox" name="sothich" value="Du lịch"> <span>Du lịch</span>
+            <input type="checkbox" name="sothich" value="Ẩm thực"> <span>Ẩm thực</span>
+            <label for=""></label>
+            <input type="checkbox" name="sothich" value="Âm Nhạc"><span>Âm Nhạc</span>
+            <input type="checkbox" name="sothich" value="Học Ngoại Ngữ"><span>Học Ngoại Ngữ</span>
+            <input type="checkbox" name="sothich" value="Kinh Doanh"><span>Kinh Doanh</span>
+        </fieldset>
+        <fieldset>
+            <legend>Thông tin liên hệ</legend>
+            
+           
+            <label for="">Điện thoại</label>
+            <input type="tel" name="dienthoai">
+            <label for="">Email</label>
+            <input type="email" name="email" placeholder="ví dụ: 123@gmail.com">
+            <label for="">Website</label>
+            <input type="url" name="website">
+            <label for="">Mã tỉnh</label>
+            <input type="text" name="matinh"> 
+            <label for="">Địa chỉ</label>
+             <textarea name="diachi" id="" cols="30" rows="5"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Chỉ số sức khỏe</legend>
+            <label for="">Chiều cao (cm)</label>
+            <input type="number" name="chieucao" min="30" max="300" step="0.1">
+            <label for="">Cân nặng [45kg-100kg]</label>
+            <input type="range" name="cannang" > 
+            <label for="">Nhịp tim[60-100 nhịp/phút</label>  
+            <meter  value="90" min="60" max="100"></meter>
+        </fieldset>
+        <fieldset>
+            <legend>Giấy Tờ Cá Nhân</legend>
+            <label for="">Tài liệu</label>
+            <input type="file" name="" id="">
+            <label for="">Tải lên 30%</label>
+            <meter  value="30" min="0" max="100"></meter>
+        </fieldset>
+        <input type="submit" value="Gửi">
+        <input type="reset" value="Hủy">
+    </form>
+    <p ><a href="index.html">trang chủ</a></p>
+</body>
+</html>
